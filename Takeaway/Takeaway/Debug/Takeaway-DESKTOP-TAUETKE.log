@@ -1,0 +1,31 @@
+﻿  Beverage.cpp
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Beverage.h(11,13): error C2061: syntax error: identifier 'string'
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Beverage.cpp(5,1): error C2511: 'Beverage::Beverage(std::string,float,int,int,float)': overloaded member function not found in 'Beverage'
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Beverage.h(6): message : see declaration of 'Beverage'
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Beverage.cpp(6,2): error C2597: illegal reference to non-static member 'Item::name'
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Item.h(6): message : see declaration of 'Item::name'
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Beverage.cpp(7,2): error C2597: illegal reference to non-static member 'Item::price'
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Item.h(7): message : see declaration of 'Item::price'
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Beverage.cpp(8,2): error C2597: illegal reference to non-static member 'Item::calories'
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Item.h(8): message : see declaration of 'Item::calories'
+  ItemList.cpp
+  MainCourse.cpp
+  Menu.cpp
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Menu.cpp(35,115): error C2664: 'Beverage::Beverage(Beverage &&)': cannot convert argument 4 from '_Ty' to 'int'
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Menu.cpp(35,100): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Beverage.h(11,5): message : see declaration of 'Beverage::Beverage'
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Menu.cpp(50,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Menu.cpp(57,20): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Menu.cpp(58,20): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type '_Ty'
+          with
+          [
+              _Ty=std::string
+          ]
+  Order.cpp
+  Takeaway.cpp
+C:\Users\lewis\OneDrive - University of Lincoln\Advanced Programming\Takeaway\Takeaway\Takeaway.cpp(63,10): warning C4101: 'choice': unreferenced local variable
+  Generating Code...
